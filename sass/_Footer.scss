@@ -1,0 +1,28 @@
+// Footer
+
+footer{
+    margin-top: 150px;
+    background-color: $blueColor;
+    background-image: url(/image/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    border-radius: 150px 150px 0px 0px;
+
+    p{
+        text-align: center;
+        line-height: 90px;
+        color: $colorWhite;
+        font-size: 18px;
+        font-weight: 500;
+        a{
+            color: $colorWhite;
+            position: relative;
+            z-index: 3;
+            transition: all .3s;
+            &:hover{
+                color: $footerColor;
+            }
+        }
+    }
+}

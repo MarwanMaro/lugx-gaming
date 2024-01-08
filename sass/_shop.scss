@@ -1,0 +1,153 @@
+//Our Shop
+
+.trending{
+    margin-top: 120px;
+    // text-align: center;
+
+    .trending-filter{
+        text-align: center;
+        margin-bottom: 70px;
+
+        li{
+            display: inline-block;
+            margin: 5px 8px;
+
+            a{
+                display: inline-block;
+                text-align: center;
+                font-size: 17px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color:$AllColor;
+                background-color: $colorWhite;
+                padding: 8PX 20PX;
+                border-radius: 25PX;
+                transition: all .3s;
+                &:hover{
+                    color: $signColor;
+                }
+            }
+            .is_active{
+                background-color: $signColor;
+                color: $colorWhite;
+                transition: all .3s;
+                &:hover{
+                    background-color:$blueColor;
+                    color: $colorWhite;
+                }
+            }
+        }
+    }
+
+    .trending-box{
+        .item{
+            background-color: $itemColor;
+            position: relative;
+            overflow: hidden;
+            border-radius: 25px;
+            margin-bottom: 30px;
+            cursor: pointer;
+
+            .thumb{
+                position: relative;
+                border-radius: 25px;
+                overflow: hidden;
+
+            }
+
+           
+
+
+            .price{
+                text-align: right;
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                border-radius: 10px;
+                background-color: $blu2Color;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: $colorWhite;
+                padding: 8px 15px 6px 15px;;
+            }
+
+
+            em{
+                font-style: normal;
+                font-weight: 400;
+                text-decoration: line-through;
+                display: block;
+
+            }
+
+            .down-content{
+                padding: 25px;
+
+                .category{
+                    font-size: 16px;
+                    color: $spanColor;
+                    margin-bottom: 5px;
+                    display: inline-block;
+                }
+
+                h4{
+                    font-size: 17px;
+                    font-weight: 600;
+                    transition: all .3s;
+                    &:hover{
+                        color: $blu2Color;
+                        
+                    }
+                    
+                }
+
+                a{
+                    position: absolute;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 40px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: $signColor;
+                    color: $colorWhite;
+                    border-radius: 50%;
+                    right: 25px;
+                    bottom: 25px;
+                    transition: all .3s;
+                    &:hover{
+                        background-color: $blu2Color;
+                    }
+                }
+
+            }
+           
+        }
+    }
+
+    .trending ul.pagination{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        
+        li{
+            display: inline-block;
+            margin: 0px 5px;
+
+            a{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background-color: $span2Color;
+                color: $AllColor;
+                font-size: 15px;
+                font-weight: 600;
+                border-radius: 50%;
+                transition: all .3s;
+            }
+        }
+    }
+}

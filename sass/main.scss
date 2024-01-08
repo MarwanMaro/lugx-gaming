@@ -1,0 +1,73 @@
+// Tempalte Gaming 
+
+/* 
+--------------------------------------------
+Table of contact 
+--------------------------------------------
+01.font & sass
+2.global styles
+3.header
+4. banner
+5.features
+6.testimonals
+7.contact
+.footer
+--------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&family=Heebo&family=Inter:wght@700&family=Poppins&family=Roboto:ital,wght@0,400;0,500;1,100;1,400&display=swap');
+
+
+
+@import "./Navbar";
+@import "./color";
+@import "./Header";
+@import "./Home";
+@import "./shop";
+@import "./info";
+@import "./Contact";
+@import "./Footer";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body ,html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+ 
+    
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: $AllColor;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+// @media (min-width:1200px){
+//     .container{
+//         max-width: 1640px;
+//     }
+// }
+
+img{
+    width: 100%;
+    overflow: hidden;
+}
